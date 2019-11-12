@@ -6,11 +6,11 @@ window.addEventListener("load", function () {
             div.innerHTML = `
                     <h2> Mission Destination </h2>
                     <ol>
-                        <li>Name: ${json[0].name}</li>
-                        <li>Diameter: ${json[0].diameter}</li>
-                        <li>Star: ${json[0].star}</li>
-                        <li>Distance from Earth: ${json[0].distance}</li>
-                        <li>Number of Moons: ${json[0].moons}</li>
+                        <li>Name: ${json[4].name}</li>
+                        <li>Diameter: ${json[4].diameter}</li>
+                        <li>Star: ${json[4].star}</li>
+                        <li>Distance from Earth: ${json[4].distance}</li>
+                        <li>Number of Moons: ${json[4].moons}</li>
                     </ol>
                     <img src="${json[0].image}"/>
                     `;
